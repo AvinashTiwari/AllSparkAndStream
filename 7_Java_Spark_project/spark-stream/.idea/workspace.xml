@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="248208d2-a619-491b-9788-92277dd56788" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/WordUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../5_Java_Spark_project/data-frames-filters/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../5_Java_Spark_project/data-frames-filters/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e3552c67-4f9e-46b3-aca1-e76feb33921d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/StreamingFileDirectoryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/StreamingKafkaConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/StreamingSocketApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6_Java_Spark_project/analyze-reddit-commet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../6_Java_Spark_project/analyze-reddit-commet/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,20 +20,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="90" selection-start-line="87" selection-end-line="90" />
+            <state relative-caret-position="458">
+              <caret line="97" column="59" selection-start-line="97" selection-start-column="59" selection-end-line="97" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/Application.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/StreamingFileDirectoryApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="42" column="71" selection-start-line="42" selection-start-column="71" selection-end-line="42" selection-end-column="71" />
+            <state>
+              <caret column="27" selection-start-column="8" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,11 +41,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/WordUtils.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/StreamingKafkaConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="1037" column="21" lean-forward="true" selection-start-line="1037" selection-start-column="21" selection-end-line="1037" selection-end-column="21" />
+            <state relative-caret-position="186">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/StreamingSocketApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="526">
+              <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -66,9 +74,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/main/java/learn/avinash/spark/StreamingFileDirectoryApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learn/avinash/spark/StreamingKafkaConsumer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learn/avinash/spark/StreamingSocketApplication.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/learn/avinash/spark/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learn/avinash/spark/WordUtils.java" />
       </list>
     </option>
   </component>
@@ -80,10 +89,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="959" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -93,34 +101,35 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="analyze-reddit-commet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="analyze-reddit-commet" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-stream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-stream" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="analyze-reddit-commet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="analyze-reddit-commet" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-stream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-stream" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="analyze-reddit-commet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="analyze-reddit-commet" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-stream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-stream" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="analyze-reddit-commet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="analyze-reddit-commet" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-stream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-stream" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="analyze-reddit-commet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="analyze-reddit-commet" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-stream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-stream" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -131,11 +140,10 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550961955163" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551046633434" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -158,16 +166,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="248208d2-a619-491b-9788-92277dd56788" name="Default Changelist" comment="" />
-      <created>1550961214403</created>
+      <changelist id="e3552c67-4f9e-46b3-aca1-e76feb33921d" name="Default Changelist" comment="" />
+      <created>1551045553170</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1550961214403</updated>
+      <updated>1551045553170</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -197,27 +206,34 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/StreamingKafkaConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="90" selection-start-line="87" selection-end-line="90" />
+        <state relative-caret-position="186">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/Application.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/StreamingSocketApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="42" column="71" selection-start-line="42" selection-start-column="71" selection-end-line="42" selection-end-column="71" />
+        <state relative-caret-position="526">
+          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/StreamingFileDirectoryApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="8" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/WordUtils.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="1037" column="21" lean-forward="true" selection-start-line="1037" selection-start-column="21" selection-end-line="1037" selection-end-column="21" />
+        <state relative-caret-position="458">
+          <caret line="97" column="59" selection-start-line="97" selection-start-column="59" selection-end-line="97" selection-end-column="59" />
         </state>
       </provider>
     </entry>
