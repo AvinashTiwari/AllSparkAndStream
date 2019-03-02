@@ -31,6 +31,12 @@ public class Main {
         sqrtRDD.foreach(value -> System.out.println(value));
 
         System.out.println(result);
+        System.out.println("Cout " + sqrtRDD.count());
+
+       JavaRDD<Long> singeIntegerRdd =  sqrtRDD.map(value -> 1L);
+        Long count = singeIntegerRdd.reduce((value1, value2) -> value1 + value2);
+        System.out.println(count);
+
 
         sc.close();
 
