@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14d72b1f-6d87-46c4-aee5-7702f0e0f6ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/IntegerWithSquareRoot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/ViewingFigures.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../12_Java_Spark_project/AllSparkAndStream - Shortcut.lnk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../12_Java_Spark_project/spark-mapping/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../12_Java_Spark_project/spark-mapping/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="59ea1659-b4df-4813-b187-f79feed5826b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../13_Java_Spark_project/tuple-rdd/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../13_Java_Spark_project/tuple-rdd/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,17 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+            <state relative-caret-position="102">
+              <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -45,20 +29,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/IntegerWithSquareRoot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -67,7 +53,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/learn/avinash/spark/IntegerWithSquareRoot.java" />
         <option value="$PROJECT_DIR$/src/main/java/learn/avinash/spark/Main.java" />
       </list>
     </option>
@@ -84,60 +69,63 @@
     <option name="width" value="1680" />
     <option name="height" value="959" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="tuplerdd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tuple-rdd" type="462c0819:PsiDirectoryNode" />
+              <item name="pair-rdds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pair-rdds" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tuplerdd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tuple-rdd" type="462c0819:PsiDirectoryNode" />
+              <item name="pair-rdds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pair-rdds" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tuplerdd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tuple-rdd" type="462c0819:PsiDirectoryNode" />
+              <item name="pair-rdds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pair-rdds" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tuplerdd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tuple-rdd" type="462c0819:PsiDirectoryNode" />
+              <item name="pair-rdds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pair-rdds" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pair-rdds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pair-rdds" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551565850665" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551641694279" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="learn.avinash.spark" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Spark\Spark\AllSparkAndStream\13_Java_Spark_project\tuple-rdd\src\main\java\learn\avinash\spark" />
+      <recent name="F:\Spark\Spark\AllSparkAndStream\14_Java_Spark_project\pair-rdds\src\main\java\learn\avinash\spark" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -157,16 +145,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="14d72b1f-6d87-46c4-aee5-7702f0e0f6ce" name="Default Changelist" comment="" />
-      <created>1551563290611</created>
+      <changelist id="59ea1659-b4df-4813-b187-f79feed5826b" name="Default Changelist" comment="" />
+      <created>1551639779078</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1551563290611</updated>
+      <updated>1551639779078</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -196,24 +185,24 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/IntegerWithSquareRoot.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        <state relative-caret-position="102">
+          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/IntegerWithSquareRoot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+        <state relative-caret-position="408">
+          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
         </state>
       </provider>
     </entry>
