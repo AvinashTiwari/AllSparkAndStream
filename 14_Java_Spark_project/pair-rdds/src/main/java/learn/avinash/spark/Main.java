@@ -30,14 +30,17 @@ public class Main {
         JavaSparkContext sc = new JavaSparkContext(conf);
 
         JavaRDD<String> originalLogMessage = sc.parallelize(inputdata);
-        JavaPairRDD<String, String> pairRdd =  originalLogMessage.mapToPair(rawValue-> {
+        JavaPairRDD<String, Long> pairRdd =  originalLogMessage.mapToPair(rawValue-> {
            String[] colums =  rawValue.split(":");
            String level = colums[0];
            String date = colums[1];
-            Tuple2<String, String> stringStringTuple2 = new Tuple2<>(level, date);
+            Tuple2<String, Long> stringStringTuple2 = new Tuple2<>(level, 1L);
             return stringStringTuple2;
 
         });
+
+      JavaPairRDD<String, Long> sumsRdd =  pairRdd.reduceByKey((value1, value2) -> value1 + value2);
+        sumsRdd.foreach(tuple -> System.out.println(tuple._1 + " has " + tuple._2));
 
 
 
