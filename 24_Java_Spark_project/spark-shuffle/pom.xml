@@ -49,8 +49,7 @@
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>3.0.2</version>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
+
                     <archive>
                         <manifest>
                             <mainClass>learn.avinash.spark.Main</mainClass>
