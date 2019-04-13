@@ -25,19 +25,13 @@ public class GetFirstRowSample {
         Dataset<Row> dataset = sparkSession.read().option("header", true)
                 .csv("src/main/resources/exams/students.csv");
 
-        dataset.show();
-		long numberOfRow = dataset.count();
-		System.out.println("Number of Rows " + numberOfRow);
+        Dataset<Row> math = dataset.filter(" subject = 'Math' and year >= 2007");
+        math.show();
 
-        Row firstRow = dataset.first();
-        String subject = firstRow.get(2).toString();
-        System.out.println("Subject " + subject);
+        Dataset<Row> mathlambdra = dataset.filter( row -> row.getAs("subject").equals("Math")
+        && Integer.parseInt(row.getAs("year")) >=2007 );
+        mathlambdra.show();
 
-        String subjectAs = firstRow.getAs("subject").toString();
-        System.out.println("Subject " + subjectAs);
-
-        int year = Integer.parseInt(firstRow.getAs("year"));
-        System.out.println("year " + year);
 
         sparkSession.close();
 		

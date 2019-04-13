@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e85df90b-d9ad-4eb7-8fc4-ff543812c1c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/GetFirstRowSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/exams/students.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../15_Java_Spark_project/spark-fluent/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../15_Java_Spark_project/spark-fluent/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../15_Java_Spark_project/spark-fluent/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../15_Java_Spark_project/spark-fluent/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../15_Java_Spark_project/spark-fluent/spark-fluent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../15_Java_Spark_project/spark-fluent/spark-fluent.iml" afterDir="false" />
@@ -93,10 +91,12 @@
       <change beforePath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/src/main/resources/viewing figures/viewsHeader.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/src/main/resources/viewing figures/viewsHeader.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spark-sql-samples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spark-sql-samples.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/GetFirstRowSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/GetFirstRowSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/subtitles/boringwords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/subtitles/boringwords.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/subtitles/input-spring.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/subtitles/input-spring.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/subtitles/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/subtitles/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -114,15 +114,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="39" column="43" lean-forward="true" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+            <state relative-caret-position="595">
+              <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/GetFirstRowSample.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -175,8 +179,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,10 +231,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555030346124" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555129042275" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -259,7 +263,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.GetFirstRowSample">
+    <configuration name="GetFirstRowSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn.avinash.spark.GetFirstRowSample" />
+      <module name="spark-sql-samples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.avinash.spark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learn.avinash.spark.Main" />
       <module name="spark-sql-samples" />
@@ -275,6 +292,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetFirstRowSample" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -295,7 +313,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -339,13 +357,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="39" column="43" lean-forward="true" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+        <state relative-caret-position="595">
+          <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/GetFirstRowSample.java">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
