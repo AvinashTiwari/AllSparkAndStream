@@ -24,17 +24,17 @@ public class Main {
 
         Dataset<Row> dataset = sparkSession.read().option("header",true).csv("src/main/resources/biglog.txt");
         dataset.createOrReplaceTempView("logging_table");
-        Dataset<Row> result = sparkSession.sql("select level , date_format(datetime, 'MMMM') as month from logging_table ");
+        Dataset<Row> result = sparkSession.sql("select level , date_format(datetime, 'MMMM') as month , " +
+                " cast(first(date_format(datetime, 'M')) as int) as monthnum , count(1) as total" +
+                " from logging_table group by level, month order by monthnum ");
 
         result.createOrReplaceTempView("logging_table");
 
 
-        result = sparkSession.sql("select level , month , count(1) as total  from logging_table group by level, month ");
+      //  result = sparkSession.sql("select level , month , monthnum, count(1) as total  " +
+        //        "from logging_table group by level, month order by monthnum ");
         result.show(100);
 
-        result.createOrReplaceTempView("result_table");
-        Dataset<Row> total = sparkSession.sql("select sum(total) from result_table ");
-        total.show();
 
 
 
