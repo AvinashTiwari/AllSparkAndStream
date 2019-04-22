@@ -9,7 +9,7 @@ import org.apache.spark.sql.SparkSession;
 import static org.apache.spark.sql.functions.col;
 import static org.apache.spark.sql.functions.date_format;
 
-public class Main {
+public class FirstSqlToDataSet {
     @SuppressWarnings("resource")
     public static void main(String[] args)
     {
