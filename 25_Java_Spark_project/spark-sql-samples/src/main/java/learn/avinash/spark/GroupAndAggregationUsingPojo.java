@@ -10,7 +10,7 @@ import org.apache.spark.sql.types.DataTypes;
 import static org.apache.spark.sql.functions.col;
 import static org.apache.spark.sql.functions.date_format;
 
-public class Main {
+public class GroupAndAggregationUsingPojo {
     @SuppressWarnings("resource")
     public static void main(String[] args)
     {
