@@ -13,7 +13,7 @@ import java.util.List;
 import static org.apache.spark.sql.functions.col;
 import static org.apache.spark.sql.functions.date_format;
 
-public class Main {
+public class SparkPivtol {
     @SuppressWarnings("resource")
     public static void main(String[] args)
     {
