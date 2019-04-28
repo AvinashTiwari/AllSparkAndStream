@@ -9,7 +9,7 @@ import org.apache.spark.sql.functions;
 
 import static org.apache.spark.sql.functions.*;
 
-public class Main {
+public class AggregationAndPviot {
     @SuppressWarnings("resource")
     public static void main(String[] args)
     {
