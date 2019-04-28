@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e85df90b-d9ad-4eb7-8fc4-ff543812c1c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/MoreaggreationExamResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../15_Java_Spark_project/spark-fluent/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../15_Java_Spark_project/spark-fluent/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../15_Java_Spark_project/spark-fluent/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../15_Java_Spark_project/spark-fluent/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../15_Java_Spark_project/spark-fluent/spark-fluent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../15_Java_Spark_project/spark-fluent/spark-fluent.iml" afterDir="false" />
@@ -94,7 +95,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spark-sql-samples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spark-sql-samples.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/GroupAndAggregationSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/GroupAndAggregationSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/biglog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/biglog.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/subtitles/boringwords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/subtitles/boringwords.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/subtitles/input-spring.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/subtitles/input-spring.txt" afterDir="false" />
@@ -117,8 +117,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="32" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="28" />
+            <state relative-caret-position="281">
+              <caret line="32" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,12 +126,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/SparkPivtol.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/MoreaggreationExamResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -155,6 +178,7 @@
         <option value="$PROJECT_DIR$/src/main/java/learn/avinash/spark/GroupAndAggregationUsingPojo.java" />
         <option value="$PROJECT_DIR$/src/main/java/learn/avinash/spark/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/learn/avinash/spark/SparkPivtol.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learn/avinash/spark/MoreaggreationExamResult.java" />
       </list>
     </option>
   </component>
@@ -194,8 +218,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,24 +241,26 @@
               <item name="spark-sql-samples" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spark-sql-samples" type="b2602c69:ProjectViewProjectNode" />
               <item name="spark-sql-samples" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="exams" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556328396781" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556416006245" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -263,7 +287,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.MoreaggreationExamResult">
     <configuration name="Columnsample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learn.avinash.spark.Columnsample" />
       <module name="spark-sql-samples" />
@@ -279,19 +303,6 @@
     </configuration>
     <configuration name="Functionsample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learn.avinash.spark.Functionsample" />
-      <module name="spark-sql-samples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learn.avinash.spark.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetFirstRowSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learn.avinash.spark.GetFirstRowSample" />
       <module name="spark-sql-samples" />
       <extension name="coverage">
         <pattern>
@@ -329,13 +340,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MoreaggreationExamResult" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn.avinash.spark.MoreaggreationExamResult" />
+      <module name="spark-sql-samples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.avinash.spark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MoreaggreationExamResult" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.InMemory" />
         <item itemvalue="Application.Functionsample" />
         <item itemvalue="Application.Columnsample" />
-        <item itemvalue="Application.GetFirstRowSample" />
       </list>
     </recent_temporary>
   </component>
@@ -355,7 +379,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3267776" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33207262" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -470,18 +494,32 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/GroupAndAggregationUsingPojo.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/SparkPivtol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="32" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="28" />
+        <state relative-caret-position="281">
+          <caret line="32" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/SparkPivtol.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/MoreaggreationExamResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
