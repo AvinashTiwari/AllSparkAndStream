@@ -10,7 +10,7 @@ import org.apache.spark.sql.types.DataTypes;
 import static org.apache.spark.sql.functions.callUDF;
 import static org.apache.spark.sql.functions.col;
 
-public class Main {
+public class SparkFirstUdfsample {
     @SuppressWarnings("resource")
     public static void main(String[] args)
     {
