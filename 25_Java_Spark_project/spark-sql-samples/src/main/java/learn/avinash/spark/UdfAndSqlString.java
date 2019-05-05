@@ -9,7 +9,7 @@ import org.apache.spark.sql.types.DataTypes;
 
 import java.text.SimpleDateFormat;
 
-public class Main {
+public class UdfAndSqlString {
     @SuppressWarnings("resource")
     public static void main(String[] args)
     {
