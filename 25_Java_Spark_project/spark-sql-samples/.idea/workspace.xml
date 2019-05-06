@@ -2,104 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e85df90b-d9ad-4eb7-8fc4-ff543812c1c0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../15_Java_Spark_project/spark-fluent/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../15_Java_Spark_project/spark-fluent/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15_Java_Spark_project/spark-fluent/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../15_Java_Spark_project/spark-fluent/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15_Java_Spark_project/spark-fluent/spark-fluent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../15_Java_Spark_project/spark-fluent/spark-fluent.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15_Java_Spark_project/spark-rdd/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../15_Java_Spark_project/spark-rdd/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15_Java_Spark_project/spark-rdd/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../15_Java_Spark_project/spark-rdd/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15_Java_Spark_project/spark-rdd/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../15_Java_Spark_project/spark-rdd/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15_Java_Spark_project/spark-rdd/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../15_Java_Spark_project/spark-rdd/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15_Java_Spark_project/spark-rdd/spark-rdd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../15_Java_Spark_project/spark-rdd/spark-rdd.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../16_Java_Spark_project/spark-group-by/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../16_Java_Spark_project/spark-group-by/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../16_Java_Spark_project/spark-group-by/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../16_Java_Spark_project/spark-group-by/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../16_Java_Spark_project/spark-group-by/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../16_Java_Spark_project/spark-group-by/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../16_Java_Spark_project/spark-group-by/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../16_Java_Spark_project/spark-group-by/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../16_Java_Spark_project/spark-group-by/spark-group-by.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../16_Java_Spark_project/spark-group-by/spark-group-by.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../16_Java_Spark_project/spark-group-by/src/main/java/learn/avinash/spark/IntegerWithSquareRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../16_Java_Spark_project/spark-group-by/src/main/java/learn/avinash/spark/IntegerWithSquareRoot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../16_Java_Spark_project/spark-group-by/src/main/java/learn/avinash/spark/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../16_Java_Spark_project/spark-group-by/src/main/java/learn/avinash/spark/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../16_Java_Spark_project/spark-group-by/src/main/java/learn/avinash/spark/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../16_Java_Spark_project/spark-group-by/src/main/java/learn/avinash/spark/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../16_Java_Spark_project/spark-group-by/src/main/java/learn/avinash/spark/ViewingFigures.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../16_Java_Spark_project/spark-group-by/src/main/java/learn/avinash/spark/ViewingFigures.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17_Java_Spark_project/sparkflatfiles/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_Java_Spark_project/sparkflatfiles/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17_Java_Spark_project/sparkflatfiles/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_Java_Spark_project/sparkflatfiles/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17_Java_Spark_project/sparkflatfiles/sparkf-lat-files.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_Java_Spark_project/sparkflatfiles/sparkf-lat-files.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../18_Java_Spark_project/spark-filter/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../18_Java_Spark_project/spark-filter/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../18_Java_Spark_project/spark-filter/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../18_Java_Spark_project/spark-filter/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../18_Java_Spark_project/spark-filter/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../18_Java_Spark_project/spark-filter/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../18_Java_Spark_project/spark-filter/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../18_Java_Spark_project/spark-filter/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../18_Java_Spark_project/spark-filter/spark-filter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../18_Java_Spark_project/spark-filter/spark-filter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../18_Java_Spark_project/spark-filter/src/main/java/learn/avinash/spark/IntegerWithSquareRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../18_Java_Spark_project/spark-filter/src/main/java/learn/avinash/spark/IntegerWithSquareRoot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../18_Java_Spark_project/spark-filter/src/main/java/learn/avinash/spark/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../18_Java_Spark_project/spark-filter/src/main/java/learn/avinash/spark/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../18_Java_Spark_project/spark-filter/src/main/java/learn/avinash/spark/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../18_Java_Spark_project/spark-filter/src/main/java/learn/avinash/spark/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../18_Java_Spark_project/spark-filter/src/main/java/learn/avinash/spark/ViewingFigures.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../18_Java_Spark_project/spark-filter/src/main/java/learn/avinash/spark/ViewingFigures.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19_Java_Spark_project/spark-read-disk/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../19_Java_Spark_project/spark-read-disk/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19_Java_Spark_project/spark-read-disk/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../19_Java_Spark_project/spark-read-disk/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19_Java_Spark_project/spark-read-disk/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../19_Java_Spark_project/spark-read-disk/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19_Java_Spark_project/spark-read-disk/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../19_Java_Spark_project/spark-read-disk/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19_Java_Spark_project/spark-read-disk/spark-read-disk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../19_Java_Spark_project/spark-read-disk/spark-read-disk.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19_Java_Spark_project/spark-read-disk/src/main/java/learn/avinash/spark/IntegerWithSquareRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../19_Java_Spark_project/spark-read-disk/src/main/java/learn/avinash/spark/IntegerWithSquareRoot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19_Java_Spark_project/spark-read-disk/src/main/java/learn/avinash/spark/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../19_Java_Spark_project/spark-read-disk/src/main/java/learn/avinash/spark/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19_Java_Spark_project/spark-read-disk/src/main/java/learn/avinash/spark/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../19_Java_Spark_project/spark-read-disk/src/main/java/learn/avinash/spark/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19_Java_Spark_project/spark-read-disk/src/main/java/learn/avinash/spark/ViewingFigures.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../19_Java_Spark_project/spark-read-disk/src/main/java/learn/avinash/spark/ViewingFigures.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19_Java_Spark_project/spark-read-disk/src/main/resources/subtitles/boringwords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../19_Java_Spark_project/spark-read-disk/src/main/resources/subtitles/boringwords.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19_Java_Spark_project/spark-read-disk/src/main/resources/subtitles/input-spring.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../19_Java_Spark_project/spark-read-disk/src/main/resources/subtitles/input-spring.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19_Java_Spark_project/spark-read-disk/src/main/resources/subtitles/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../19_Java_Spark_project/spark-read-disk/src/main/resources/subtitles/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19_Java_Spark_project/spark-read-disk/target/classes/subtitles/boringwords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../19_Java_Spark_project/spark-read-disk/target/classes/subtitles/boringwords.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19_Java_Spark_project/spark-read-disk/target/classes/subtitles/input-spring.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../19_Java_Spark_project/spark-read-disk/target/classes/subtitles/input-spring.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19_Java_Spark_project/spark-read-disk/target/classes/subtitles/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../19_Java_Spark_project/spark-read-disk/target/classes/subtitles/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20_Java_Spark_project/spark-key-word-ranking/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20_Java_Spark_project/spark-key-word-ranking/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20_Java_Spark_project/spark-key-word-ranking/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20_Java_Spark_project/spark-key-word-ranking/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20_Java_Spark_project/spark-key-word-ranking/spark-key-word-ranking.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20_Java_Spark_project/spark-key-word-ranking/spark-key-word-ranking.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20_Java_Spark_project/spark-key-word-ranking/target/classes/subtitles/boringwords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../20_Java_Spark_project/spark-key-word-ranking/target/classes/subtitles/boringwords.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20_Java_Spark_project/spark-key-word-ranking/target/classes/subtitles/input-spring.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../20_Java_Spark_project/spark-key-word-ranking/target/classes/subtitles/input-spring.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20_Java_Spark_project/spark-key-word-ranking/target/classes/subtitles/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../20_Java_Spark_project/spark-key-word-ranking/target/classes/subtitles/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../21_Java_Spark_project/short-not-work-in-spark/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../21_Java_Spark_project/short-not-work-in-spark/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../21_Java_Spark_project/short-not-work-in-spark/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../21_Java_Spark_project/short-not-work-in-spark/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../21_Java_Spark_project/short-not-work-in-spark/short-not-work-in-spark.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../21_Java_Spark_project/short-not-work-in-spark/short-not-work-in-spark.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../21_Java_Spark_project/short-not-work-in-spark/target/classes/subtitles/boringwords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../21_Java_Spark_project/short-not-work-in-spark/target/classes/subtitles/boringwords.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../21_Java_Spark_project/short-not-work-in-spark/target/classes/subtitles/input-spring.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../21_Java_Spark_project/short-not-work-in-spark/target/classes/subtitles/input-spring.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../21_Java_Spark_project/short-not-work-in-spark/target/classes/subtitles/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../21_Java_Spark_project/short-not-work-in-spark/target/classes/subtitles/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../22_Java_Spark_project/big-data/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../22_Java_Spark_project/big-data/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../22_Java_Spark_project/big-data/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../22_Java_Spark_project/big-data/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../22_Java_Spark_project/big-data/big-data.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../22_Java_Spark_project/big-data/big-data.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../23_Java_Spark_project/transformation-action/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../23_Java_Spark_project/transformation-action/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../23_Java_Spark_project/transformation-action/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../23_Java_Spark_project/transformation-action/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../23_Java_Spark_project/transformation-action/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../23_Java_Spark_project/transformation-action/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../23_Java_Spark_project/transformation-action/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../23_Java_Spark_project/transformation-action/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../23_Java_Spark_project/transformation-action/src/main/java/learn/avinash/spark/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../23_Java_Spark_project/transformation-action/src/main/java/learn/avinash/spark/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../23_Java_Spark_project/transformation-action/src/main/java/learn/avinash/spark/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../23_Java_Spark_project/transformation-action/src/main/java/learn/avinash/spark/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../23_Java_Spark_project/transformation-action/src/main/java/learn/avinash/spark/ViewingFigures.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../23_Java_Spark_project/transformation-action/src/main/java/learn/avinash/spark/ViewingFigures.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../23_Java_Spark_project/transformation-action/src/main/resources/viewing figures/chapters.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../23_Java_Spark_project/transformation-action/src/main/resources/viewing figures/chapters.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../23_Java_Spark_project/transformation-action/src/main/resources/viewing figures/titles-header.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../23_Java_Spark_project/transformation-action/src/main/resources/viewing figures/titles-header.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../23_Java_Spark_project/transformation-action/src/main/resources/viewing figures/titles.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../23_Java_Spark_project/transformation-action/src/main/resources/viewing figures/titles.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../23_Java_Spark_project/transformation-action/src/main/resources/viewing figures/viewsHeader.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../23_Java_Spark_project/transformation-action/src/main/resources/viewing figures/viewsHeader.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../23_Java_Spark_project/transformation-action/transformation-action.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../23_Java_Spark_project/transformation-action/transformation-action.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/spark-shuffle.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/spark-shuffle.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/src/main/java/learn/avinash/spark/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/src/main/java/learn/avinash/spark/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/src/main/java/learn/avinash/spark/PartitionTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/src/main/java/learn/avinash/spark/PartitionTesting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/src/main/java/learn/avinash/spark/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/src/main/java/learn/avinash/spark/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/src/main/java/learn/avinash/spark/ViewingFigures.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/src/main/java/learn/avinash/spark/ViewingFigures.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/src/main/resources/subtitles/boringwords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/src/main/resources/subtitles/boringwords.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/src/main/resources/subtitles/input-spring.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/src/main/resources/subtitles/input-spring.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/src/main/resources/subtitles/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/src/main/resources/subtitles/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/src/main/resources/viewing figures/chapters.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/src/main/resources/viewing figures/chapters.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/src/main/resources/viewing figures/titles-header.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/src/main/resources/viewing figures/titles-header.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/src/main/resources/viewing figures/titles.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/src/main/resources/viewing figures/titles.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/src/main/resources/viewing figures/viewsHeader.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../24_Java_Spark_project/spark-shuffle/src/main/resources/viewing figures/viewsHeader.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-sql-samples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spark-sql-samples.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/GroupAndAggregationSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/GroupAndAggregationSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/SparkSqlUi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/SparkSqlUi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/biglog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/biglog.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/subtitles/boringwords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/subtitles/boringwords.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/subtitles/input-spring.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/subtitles/input-spring.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/subtitles/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/subtitles/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-sql-samples.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -112,13 +16,17 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/SparkSqlUi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+            <state relative-caret-position="136">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -126,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/UdfAndSqlString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-end-line="42" />
+            <state relative-caret-position="578">
+              <caret line="41" column="8" selection-start-line="41" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -196,9 +104,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1386" />
-    <option name="height" value="788" />
+    <option name="y" value="21" />
+    <option name="width" value="1388" />
+    <option name="height" value="790" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -208,64 +116,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="spark-sql-samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spark-sql-samples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spark-sql-samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spark-sql-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spark-sql-samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spark-sql-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spark-sql-samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spark-sql-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spark-sql-samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spark-sql-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spark-sql-samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spark-sql-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spark-sql-samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spark-sql-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="exams" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557018146262" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -361,10 +220,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.SparkSqlUi" />
+        <item itemvalue="Application.InMemory" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.SparkFirstUdfsample" />
         <item itemvalue="Application.MoreaggreationExamResult" />
-        <item itemvalue="Application.InMemory" />
       </list>
     </recent_temporary>
   </component>
@@ -382,9 +241,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36384267" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37449664" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -393,7 +253,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -406,7 +266,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.32980332" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.3295302" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -551,17 +411,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/UdfAndSqlString.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/SparkSqlUi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-end-line="42" />
+        <state relative-caret-position="136">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/SparkSqlUi.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/UdfAndSqlString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        <state relative-caret-position="578">
+          <caret line="41" column="8" selection-start-line="41" selection-end-line="42" />
         </state>
       </provider>
     </entry>
