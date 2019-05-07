@@ -5,9 +5,6 @@ import org.apache.log4j.Logger;
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SparkSession;
-import org.apache.spark.sql.types.DataTypes;
-
-import java.text.SimpleDateFormat;
 
 public class Main {
     @SuppressWarnings("resource")
@@ -23,38 +20,38 @@ public class Main {
                 .master("local[*]")
                 .config("spark.sql.warehouse.dir","file:///d://tmp/")
                 .getOrCreate();
-
-        SimpleDateFormat input = new SimpleDateFormat("MMMM");
-        SimpleDateFormat output = new SimpleDateFormat("M");
-
-        sparkSession.udf().register("monthNum", (String month) ->{
-            java.util.Date inputDate = (input.parse(month));
-           return Integer.parseInt(output.format(inputDate));
-        },DataTypes.IntegerType);
-
+        sparkSession.conf().set("spark.sql.shuffle.partitions","12");
 
         Dataset<Row> dataset = sparkSession.read().option("header",true).csv("src/main/resources/biglog.txt");
         dataset.createOrReplaceTempView("logging_table");
+
         Dataset<Row> result = sparkSession.sql("select level , date_format(datetime, 'MMMM') as month , " +
-                " count(1) as total" +
-                " from logging_table group by level, month order by monthNum(month) , level ");
+                " cast(first(date_format(datetime, 'M')) as int) as monthnum , count(1) as total" +
+                " from logging_table group by level, month order by monthnum ");
+
 
         result.createOrReplaceTempView("logging_table");
 
+        //dataset =  dataset.select(col("level"),
+        //      date_format(col("datetime"),"MMMM").alias("month"),
+        //    date_format(col("datetime"),"M").alias("monthnum").cast(DataTypes.IntegerType));
+        //  dataset =  dataset.groupBy("level").pivot("month").count();
+        // dataset =  dataset.groupBy("level").pivot("monthnum").count();
 
-        //  result = sparkSession.sql("select level , month , monthnum, count(1) as total  " +
-        //        "from logging_table group by level, month order by monthnum ");
+
+        //dataset =  dataset.groupBy("level", "month", "monthnum").count().as("total").orderBy("monthnum");
+        //dataset = dataset.drop("monthnum");
+
         result.show(100);
 
-
-
-
+        result.explain();
+       // Scanner scanner = new Scanner(System.in);
+        //scanner.nextLine();
 
         sparkSession.close();
 
-
-
     }
+
 
 
 }
