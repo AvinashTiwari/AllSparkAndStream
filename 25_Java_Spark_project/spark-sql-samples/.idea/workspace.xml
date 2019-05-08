@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e85df90b-d9ad-4eb7-8fc4-ff543812c1c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/explainSqlPlainWithoutUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="e85df90b-d9ad-4eb7-8fc4-ff543812c1c0" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +21,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
+            <state relative-caret-position="714">
               <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -34,9 +30,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/explainSqlPlainWithoutUI.java">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://E:/AI/7_nlp_python/nlp_course_env.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -77,6 +82,7 @@
         <option value="$PROJECT_DIR$/src/main/java/learn/avinash/spark/SparkSqlUi.java" />
         <option value="$PROJECT_DIR$/src/main/java/learn/avinash/spark/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/learn/avinash/spark/explainSqlPlainWithoutUI.java" />
+        <option value="E:/AI/7_nlp_python/nlp_course_env.yml" />
       </list>
     </option>
   </component>
@@ -105,7 +111,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="20" />
-    <option name="width" value="1389" />
+    <option name="width" value="1390" />
     <option name="height" value="790" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -116,7 +122,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,6 +160,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -279,7 +285,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37986577" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3852349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -463,7 +469,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
+        <state relative-caret-position="714">
           <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -473,6 +479,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/explainSqlPlainWithoutUI.java">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/AI/7_nlp_python/nlp_course_env.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
