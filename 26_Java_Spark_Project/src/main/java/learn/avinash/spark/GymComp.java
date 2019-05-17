@@ -1,6 +1,8 @@
 package learn.avinash.spark;
 
 import org.apache.spark.ml.feature.VectorAssembler;
+import org.apache.spark.ml.regression.LinearRegression;
+import org.apache.spark.ml.regression.LinearRegressionModel;
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SparkSession;
@@ -29,9 +31,16 @@ public class GymComp {
 
         VectorAssembler vectorAssembler = new VectorAssembler();
         vectorAssembler.setInputCols(new String[] {"Age", "Height", "Weight"});
-        vectorAssembler.setOutputCol("feature");
+        vectorAssembler.setOutputCol("features");
         Dataset<Row> csvDataRow = vectorAssembler.transform(csvData);
-        Dataset<Row> modelInput = csvDataRow.select("NoOfReps", "feature").withColumnRenamed("NoOfReps", "label");
+        Dataset<Row> modelInput = csvDataRow.select("NoOfReps", "features").withColumnRenamed("NoOfReps", "label");
         modelInput.show();
+
+        LinearRegression linearRegression = new LinearRegression();
+        LinearRegressionModel model =  linearRegression.fit(modelInput);
+        System.out.println("the model intercept " + model.intercept()  + "and coffecient " + model.coefficients());
+
+        model.transform(modelInput).show();
+
     }
 }
