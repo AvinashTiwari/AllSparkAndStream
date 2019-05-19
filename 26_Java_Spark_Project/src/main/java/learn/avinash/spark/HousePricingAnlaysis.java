@@ -30,7 +30,7 @@ public class HousePricingAnlaysis {
         csvData.show();
 
         VectorAssembler vectorAssembler = new VectorAssembler()
-                .setInputCols(new String[] {"bedrooms", "bathrooms","sqft_living"})
+                .setInputCols(new String[] {"bedrooms", "bathrooms","sqft_living", "sqft_lot","floors","grade"})
                 .setOutputCol("features");
 
         Dataset<Row> modelInput = vectorAssembler.transform(csvData)
@@ -44,9 +44,11 @@ public class HousePricingAnlaysis {
 
         LinearRegressionModel linearRegressionModel = new LinearRegression()
                 .fit(trainingData);
+        System.out.println("The training r2 value is " + linearRegressionModel.summary().r2() + " and rsme value" +  linearRegressionModel.summary().rootMeanSquaredError());
         linearRegressionModel.transform(testData)
         .show();
 
+        System.out.println("The test r2 value is " + linearRegressionModel.evaluate(testData).r2() + " and rsme value" +  linearRegressionModel.evaluate(testData).rootMeanSquaredError());
 
 
 
