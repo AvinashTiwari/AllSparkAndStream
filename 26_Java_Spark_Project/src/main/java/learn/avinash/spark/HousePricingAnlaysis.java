@@ -2,14 +2,19 @@ package learn.avinash.spark;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.apache.spark.ml.evaluation.RegressionEvaluator;
 import org.apache.spark.ml.feature.VectorAssembler;
 import org.apache.spark.ml.param.ParamMap;
 import org.apache.spark.ml.regression.LinearRegression;
 import org.apache.spark.ml.regression.LinearRegressionModel;
 import org.apache.spark.ml.tuning.ParamGridBuilder;
+
+import org.apache.spark.ml.tuning.TrainValidationSplit;
+import org.apache.spark.ml.tuning.TrainValidationSplitModel;
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SparkSession;
+import org.spark_project.dmg.pmml.Regression;
 
 public class HousePricingAnlaysis {
 
@@ -40,9 +45,9 @@ public class HousePricingAnlaysis {
                 .withColumnRenamed("price", "label");
         modelInput.show();
 
-        Dataset<Row>[] taraingTestData = modelInput.randomSplit(new double[]{0.8, 0.2});
-        Dataset<Row> trainingData = taraingTestData[0];
-        Dataset<Row> testData  =  taraingTestData[1];
+        Dataset<Row>[] dataSplit = modelInput.randomSplit(new double[]{0.8, 0.2});
+        Dataset<Row> trainingAndTestdata = dataSplit[0];
+        Dataset<Row> holdoutData  =  dataSplit[1];
 /*
         LinearRegressionModel linearRegressionModel = new LinearRegression()
                 .setMaxIter(10)
@@ -54,16 +59,24 @@ public class HousePricingAnlaysis {
         LinearRegression linearRegression = new LinearRegression();
         ParamGridBuilder paramGridBuilder = new ParamGridBuilder();
         ParamMap[] paramMaps = paramGridBuilder.addGrid(linearRegression.regParam(),new double[]{0.01, 0.5,0.1})
-                .addGrid(linearRegression.elasticNetParam(), new double[]{0.01, 0.5,0.1})
+                .addGrid(linearRegression.elasticNetParam(), new double[]{0, 0.5,0.1})
                 .build();
 
+        TrainValidationSplit trainValidationSplit = new TrainValidationSplit()
+                .setEstimator(linearRegression)
+                .setEvaluator(new RegressionEvaluator().setMetricName("r2"))
+                .setEstimatorParamMaps(paramMaps)
+                .setTrainRatio(0.8);
+        TrainValidationSplitModel model = trainValidationSplit.fit(trainingAndTestdata);
+        LinearRegressionModel lrModel = (LinearRegressionModel) model.bestModel();
 
-        System.out.println("The training r2 value is " + linearRegressionModel.summary().r2() + " and rsme value" +  linearRegressionModel.summary().rootMeanSquaredError());
-        linearRegressionModel.transform(testData)
-        .show();
 
-        System.out.println("The test r2 value is " + linearRegressionModel.evaluate(testData).r2() + " and rsme value" +  linearRegressionModel.evaluate(testData).rootMeanSquaredError());
+        System.out.println("The training data r2 value is " + lrModel.summary().r2() + " and the RMSE is " + lrModel.summary().rootMeanSquaredError());
 
+       System.out.println("The test r2 value is " + lrModel.evaluate(holdoutData).r2() + " and rsme value" +  lrModel.evaluate(holdoutData).rootMeanSquaredError());
+
+        System.out.println("coefficients : " + lrModel.coefficients() + " intercept : " + lrModel.intercept());
+        System.out.println("reg param : " + lrModel.getRegParam() + " elastic net param : " + lrModel.getElasticNetParam());
 
 
     }
