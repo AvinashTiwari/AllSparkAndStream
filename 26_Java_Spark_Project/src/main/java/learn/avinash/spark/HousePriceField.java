@@ -22,5 +22,13 @@ public class HousePriceField {
                 .option("inferSchema",true)
                 .csv("src/main/resources/kc_house_data.csv");
 
+        //csvData.describe().show();
+        csvData = csvData.drop("id", "date","waterfront","view","condition","grade","yr_renovated","zipcode","lat","long");
+        for(String col: csvData.columns()){
+            System.out.println( "The Correlation between price and "  + col + " Is " +  csvData.stat().corr("price", col));
+        }
+
+
+
     }
 }

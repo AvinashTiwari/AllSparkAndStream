@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78d0f524-bd1e-434e-b703-13028ce724f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/HousePriceField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/HousePricingAnlaysisfeature.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/HousePriceField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/HousePriceField.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/HousePricingAnlaysisfeature.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -31,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/HousePriceField.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="264">
+              <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,8 +94,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,9 +169,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HousePricingAnlaysis">
+  <component name="RunManager" selected="Application.HousePriceField">
     <configuration name="GymComp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learn.avinash.spark.GymComp" />
+      <module name="spark-ml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.avinash.spark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HousePriceField" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn.avinash.spark.HousePriceField" />
       <module name="spark-ml" />
       <extension name="coverage">
         <pattern>
@@ -199,6 +211,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HousePriceField" />
         <item itemvalue="Application.HousePricingAnlaysis" />
         <item itemvalue="Application.GymComp" />
       </list>
@@ -220,7 +233,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2865772" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29060403" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -307,6 +320,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/HousePricingAnlaysisfeature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/GymComp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -317,17 +337,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/HousePricingAnlaysisfeature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/HousePriceField.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="264">
+          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
