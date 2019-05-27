@@ -28,6 +28,15 @@ public class HousePriceField {
             System.out.println( "The Correlation between price and "  + col + " Is " +  csvData.stat().corr("price", col));
         }
 
+        csvData = csvData.drop("sqft_lot", "sqft_lot15","yr_build","sqft_living15");
+
+        for(String col1: csvData.columns()){
+            for(String col2: csvData.columns()) {
+                System.out.println("The Correlation between " + col1+ "and " + col2 + " Is " + csvData.stat().corr(col1, col2));
+            }
+        }
+
+
 
 
     }
