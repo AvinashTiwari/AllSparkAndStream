@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78d0f524-bd1e-434e-b703-13028ce724f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/Three_HousePricingAnlaysisPipleline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/Two_HousePricingAnlaysis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/ProductionReadyHousePricingAnlaysisPipleline.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/GymCompOneHotencoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/spark/GymCompOneHotencoding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learn/avinash/spark/GymCompOneHotencoding.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learn/avinash/spark/GymCompOneHotencoding.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,64 +19,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/GymCompOneHotencoding.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/HousePricingAnlaysisfeature.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/Three_HousePricingAnlaysisPipleline.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
+            <state relative-caret-position="1292">
               <caret line="95" column="32" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/HousePricingAnlaysis.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/ProductionReadyHousePricingAnlaysisPipleline.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/HousePriceField.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/One_HousePricingAnlaysis.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="374">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
         </entry>
@@ -108,6 +60,7 @@
         <option value="$PROJECT_DIR$/src/main/java/learn/avinash/spark/GymCompOneHotencoding.java" />
         <option value="$PROJECT_DIR$/src/main/java/learn/avinash/spark/Two_HousePricingAnlaysis.java" />
         <option value="$PROJECT_DIR$/src/main/java/learn/avinash/spark/Three_HousePricingAnlaysisPipleline.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learn/avinash/spark/ProductionReadyHousePricingAnlaysisPipleline.java" />
       </list>
     </option>
   </component>
@@ -131,8 +84,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,6 +128,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,8 +250,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32550335" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33489934" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -438,8 +392,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/Three_HousePricingAnlaysisPipleline.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
+        <state relative-caret-position="1292">
           <caret line="95" column="32" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/ProductionReadyHousePricingAnlaysisPipleline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
