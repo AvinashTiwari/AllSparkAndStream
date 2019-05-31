@@ -41,12 +41,12 @@ public class GymCompOneHotencoding {
         genderEncoder.setInputCols(new String[] {"GenderIndexer"});
         genderEncoder.setOutputCols(new String[] {"GenderVector"});
         csvData = genderEncoder.fit(csvData).transform(csvData);
-        csvData.show();
+       // csvData.show();
 
 
-     /*
+
         VectorAssembler vectorAssembler = new VectorAssembler();
-        vectorAssembler.setInputCols(new String[] {"Age", "Height", "Weight"});
+        vectorAssembler.setInputCols(new String[] {"Age", "Height", "Weight", "GenderVector"});
         vectorAssembler.setOutputCol("features");
         Dataset<Row> csvDataRow = vectorAssembler.transform(csvData);
         Dataset<Row> modelInput = csvDataRow.select("NoOfReps", "features").withColumnRenamed("NoOfReps", "label");
@@ -57,6 +57,6 @@ public class GymCompOneHotencoding {
         System.out.println("the model intercept " + model.intercept()  + "and coffecient " + model.coefficients());
 
         model.transform(modelInput).show();
-*/
+
     }
 }
