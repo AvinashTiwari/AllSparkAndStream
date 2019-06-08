@@ -5,12 +5,17 @@ import org.apache.log4j.Logger;
 import org.apache.spark.ml.Pipeline;
 import org.apache.spark.ml.PipelineModel;
 import org.apache.spark.ml.PipelineStage;
+import org.apache.spark.ml.classification.DecisionTreeClassificationModel;
+import org.apache.spark.ml.classification.DecisionTreeClassifier;
+import org.apache.spark.ml.evaluation.MulticlassClassificationEvaluator;
 import org.apache.spark.ml.evaluation.RegressionEvaluator;
 import org.apache.spark.ml.feature.IndexToString;
 import org.apache.spark.ml.feature.OneHotEncoderEstimator;
 import org.apache.spark.ml.feature.StringIndexer;
 import org.apache.spark.ml.feature.VectorAssembler;
 import org.apache.spark.ml.param.ParamMap;
+import org.apache.spark.ml.regression.DecisionTreeRegressionModel;
+import org.apache.spark.ml.regression.DecisionTreeRegressor;
 import org.apache.spark.ml.regression.LinearRegression;
 import org.apache.spark.ml.regression.LinearRegressionModel;
 import org.apache.spark.ml.tuning.ParamGridBuilder;
@@ -22,6 +27,7 @@ import org.apache.spark.sql.SparkSession;
 import org.apache.spark.sql.api.java.UDF1;
 import org.apache.spark.sql.types.DataTypes;
 
+import javax.xml.crypto.Data;
 import java.util.Arrays;
 import java.util.List;
 
@@ -69,9 +75,40 @@ public class VVPDecisionTree {
                 .fit(csvData)
                 .transform(csvData);
 
-        Dataset<Row> countryIndexs = csvData.select("countryIndex");
-        IndexToString indexToString = new IndexToString();
+       new IndexToString().setInputCol("countryIndex")
+               .setOutputCol("value")
+               .transform(csvData.select("countryIndex").distinct()).show();
+       // countryIndexs.show();
+        VectorAssembler vectorAssembler = new VectorAssembler();
+        vectorAssembler.setInputCols(new String[]{"countryIndex", "rebill_period","chapter_access_count","seconds_watched"})
+                .setOutputCol("features");
+        Dataset<Row> inputData = vectorAssembler.transform(csvData).select("label","features");
+        inputData.show();
 
-        countryIndexs.show();
+        Dataset<Row>[] trainingAndHoldOutData = inputData.randomSplit(new double[]{0.8,2.0});
+        Dataset<Row> trainingData = trainingAndHoldOutData[0];
+        Dataset<Row> holdOutData = trainingAndHoldOutData[1];
+
+        DecisionTreeRegressor  dtRegressor = new DecisionTreeRegressor();
+        dtRegressor.setMaxDepth(3);
+        DecisionTreeRegressionModel decisoonTreeRegressionModel = dtRegressor.fit(trainingData);
+        decisoonTreeRegressionModel.transform(holdOutData).show();
+
+        System.out.println(decisoonTreeRegressionModel.toDebugString());
+
+
+
+        DecisionTreeClassifier dtClassifier = new DecisionTreeClassifier();
+        dtClassifier.setMaxDepth(3);
+        DecisionTreeClassificationModel modelClassifer = dtClassifier.fit(trainingData);
+        Dataset<Row> prediction = modelClassifer.transform(holdOutData);
+        prediction.show();
+        System.out.println(modelClassifer.toDebugString());
+
+        MulticlassClassificationEvaluator evaluator = new MulticlassClassificationEvaluator();
+        evaluator.setMetricName("accuracy");
+
+        System.out.println("The accuracy of the model is " + evaluator.evaluate(prediction));
+
     }
 }
