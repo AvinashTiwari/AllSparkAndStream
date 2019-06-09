@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="721ec858-3cca-4c96-95ef-0d52fde5c17c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/spark/decision/RandomClassifierVVPDecisionTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learn/spark/decision/VVPDecisionTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/spark/decision/VVPDecisionTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,23 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/learn/spark/decision/VVPDecisionTree.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/learn/spark/decision/RandomClassifierVVPDecisionTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="284">
+              <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
             </state>
           </provider>
         </entry>
@@ -56,6 +44,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/learn/spark/decision/VVPDecisionTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learn/spark/decision/RandomClassifierVVPDecisionTree.java" />
       </list>
     </option>
   </component>
@@ -97,6 +86,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spark-decision-tree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-decision-tree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark-decision-tree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-decision-tree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="decision" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -111,6 +115,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="learn.spark.decision" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\AllSparkAndStream\29_Java_Spark_Project\spark-decision-tree\src\main\resources" />
     </key>
@@ -127,7 +134,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.RandomClassifierVVPDecisionTree">
+    <configuration name="RandomClassifierVVPDecisionTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn.spark.decision.RandomClassifierVVPDecisionTree" />
+      <module name="spark-decision-tree" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.spark.decision.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VVPDecisionTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learn.spark.decision.VVPDecisionTree" />
       <module name="spark-decision-tree" />
@@ -143,6 +163,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RandomClassifierVVPDecisionTree" />
         <item itemvalue="Application.VVPDecisionTree" />
       </list>
     </recent_temporary>
@@ -163,7 +184,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26308724" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2671141" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -197,20 +218,33 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/learn/spark/decision/VVPDecisionTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
+        <state relative-caret-position="621">
           <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learn/spark/decision/VVPDecisionTree.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.3.1/spark-mllib_2.11-2.3.1.jar!/org/apache/spark/ml/classification/ProbabilisticClassifierParams$class.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.3.1/spark-mllib_2.11-2.3.1.jar!/org/apache/spark/ml/classification/ProbabilisticClassifier.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learn/spark/decision/RandomClassifierVVPDecisionTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="284">
+          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
         </state>
       </provider>
     </entry>
