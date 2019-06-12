@@ -3,6 +3,7 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.spark.ml.clustering.KMeans;
 import org.apache.spark.ml.clustering.KMeansModel;
+import org.apache.spark.ml.evaluation.ClusteringEvaluator;
 import org.apache.spark.ml.feature.OneHotEncoderEstimator;
 import org.apache.spark.ml.feature.StringIndexer;
 import org.apache.spark.ml.feature.VectorAssembler;
@@ -52,17 +53,27 @@ public class GymCompClusterning {
         //inputdData.show();
 
         KMeans kMeans = new KMeans();
-        kMeans.setK(3);
+        for(int noOfCluster=2; noOfCluster <=8; noOfCluster++) {
 
-        KMeansModel model = kMeans.fit(inputdData);
+            kMeans.setK(noOfCluster);
 
-        Dataset<Row> prediction = model.transform(inputdData);
-        prediction.show();
+            KMeansModel model = kMeans.fit(inputdData);
 
-        Vector[] clustercenter = model.clusterCenters();
+            Dataset<Row> prediction = model.transform(inputdData);
+           // prediction.show();
 
-        for(Vector v : clustercenter){
-            System.out.println(v);
+            Vector[] clustercenter = model.clusterCenters();
+
+            for (Vector v : clustercenter) {
+             //   System.out.println(v);
+            }
+
+            prediction.groupBy("prediction").count().show();
+
+            System.out.println("SSE is " + model.computeCost(inputdData));
+            ClusteringEvaluator evaluator = new ClusteringEvaluator();
+            System.out.println("Sliutohee with squared euclidean distance " + evaluator.evaluate(prediction));
+
         }
 
 
