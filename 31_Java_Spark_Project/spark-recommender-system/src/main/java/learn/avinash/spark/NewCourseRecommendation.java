@@ -2,21 +2,18 @@ package learn.avinash.spark;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.apache.spark.ml.feature.OneHotEncoderEstimator;
-import org.apache.spark.ml.feature.StringIndexer;
-import org.apache.spark.ml.feature.VectorAssembler;
 import org.apache.spark.ml.recommendation.ALS;
 import org.apache.spark.ml.recommendation.ALSModel;
-import org.apache.spark.ml.regression.LinearRegression;
-import org.apache.spark.ml.regression.LinearRegressionModel;
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SparkSession;
 
+import java.util.List;
+
 import static org.apache.spark.sql.functions.col;
 
 
-public class CourseRecommendation {
+public class NewCourseRecommendation {
     public static void main(String[] args) {
         System.setProperty("hadoop.home.dir", "c:/winutils");
         Logger.getLogger("org.apache").setLevel(Level.WARN);
@@ -45,11 +42,15 @@ public class CourseRecommendation {
                 .setItemCol("courseId")
                 .setRatingCol("proportionWatched");
 
-        ALSModel model = als.fit(trainingData);
-        Dataset<Row> prediction = model.transform(holdOut);
+        ALSModel model = als.fit(csvData);
+        Dataset<Row> userRec = model.recommendForAllUsers(5);
+        List<Row> userRecList = userRec.takeAsList(5);
 
-
-        prediction.show();
+        for(Row r :userRecList){
+            int userid = r.getAs(0);
+            String recs = r.getAs(1).toString();
+            System.out.println("Recommend system " + recs);
+        }
 
 }
 }
