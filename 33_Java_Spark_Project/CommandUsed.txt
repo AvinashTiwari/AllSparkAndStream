@@ -1,0 +1,4 @@
+> zookeeper.bat config/zookeeper.properties
+> kafka-server-start.bat config/server.properties
+
+E:\SoftwareInPath\kakfa\kafka_2.12-2.0.0\kafka_2.12-2.0.0\bin\windows>kafka-console-consumer.bat  --bootstrap-server  localhost:9092 --topic viewrecords
