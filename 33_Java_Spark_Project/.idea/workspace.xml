@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57a1674e-97a1-4167-9190-2377c2be0ada" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../34_Java_Spark_Project/kafka-consumer/kafka-consumer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../34_Java_Spark_Project/kafka-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../34_Java_Spark_Project/kafka-consumer/src/main/java/learn/avinash/spark/SparkDStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommandUsed.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CommandUsed.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spark-kafka.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learn/avinash/spark/ViewReportsSimulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../34_Java_Spark_Project/kafka-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../34_Java_Spark_Project/kafka-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../34_Java_Spark_Project/kafka-consumer/src/main/java/learn/avinash/spark/SparkDStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/../34_Java_Spark_Project/kafka-consumer/src/main/java/learn/avinash/spark/SparkDStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../34_Java_Spark_Project/kafka-consumer/target/classes/learn/avinash/spark/SparkDStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/../34_Java_Spark_Project/kafka-consumer/target/classes/learn/avinash/spark/SparkDStream.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,11 +29,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../34_Java_Spark_Project/kafka-consumer/src/main/java/learn/avinash/spark/SparkDStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="255">
+              <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../34_Java_Spark_Project/kafka-consumer/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -43,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/ViewReportsSimulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="20" column="33" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="71" />
+            <state relative-caret-position="134">
+              <caret line="23" column="34" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,8 +82,8 @@
         <option value="$PROJECT_DIR$/src/main/java/learn/avinash/spark/ViewReportsSimulator.java" />
         <option value="$PROJECT_DIR$/src/main/java/learn/avinash/spark/SparkDStream.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/../34_Java_Spark_Project/kafka-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/../34_Java_Spark_Project/kafka-consumer/src/main/java/learn/avinash/spark/SparkDStream.java" />
+        <option value="$PROJECT_DIR$/../34_Java_Spark_Project/kafka-consumer/pom.xml" />
       </list>
     </option>
   </component>
@@ -93,6 +100,11 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="spark-kafka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spark-kafka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
@@ -178,8 +190,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -208,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ViewReportsSimulator">
+  <component name="RunManager" selected="Application.SparkDStream (1)">
     <configuration name="SparkDStream (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learn.avinash.spark.SparkDStream" />
       <module name="kafka-consumer" />
@@ -250,8 +262,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ViewReportsSimulator" />
         <item itemvalue="Application.SparkDStream (1)" />
+        <item itemvalue="Application.ViewReportsSimulator" />
         <item itemvalue="Application.SparkDStream" />
       </list>
     </recent_temporary>
@@ -271,8 +283,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26308724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -290,7 +303,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
       <window_info anchor="bottom" id="Console" order="11" />
@@ -298,7 +311,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.3295302" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.3295302" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
@@ -313,33 +326,15 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/final_viewing_figures">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/SparkDStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../34_Java_Spark_Project/kafka-consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/SparkDStream.java" />
+    <entry file="file://$PROJECT_DIR$/kafka-consumer/pom.xml" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/spark/ViewReportsSimulator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="20" column="33" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="71" />
+        <state relative-caret-position="134">
+          <caret line="23" column="34" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -348,8 +343,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../34_Java_Spark_Project/kafka-consumer/src/main/java/learn/avinash/spark/SparkDStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="255">
+          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../34_Java_Spark_Project/kafka-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
