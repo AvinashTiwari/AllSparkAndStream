@@ -9,6 +9,9 @@ import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SparkSession;
 import org.apache.spark.sql.streaming.DataStreamReader;
+import org.apache.spark.sql.streaming.OutputMode;
+import org.apache.spark.sql.streaming.StreamingQuery;
+import org.apache.spark.sql.streaming.StreamingQueryException;
 import org.apache.spark.streaming.Durations;
 import org.apache.spark.streaming.api.java.JavaDStream;
 import org.apache.spark.streaming.api.java.JavaInputDStream;
@@ -26,7 +29,7 @@ import java.util.Map;
 
 public class SparkStructStream {
 
-    public static void main(String[] args)  throws InterruptedException{
+    public static void main(String[] args)  throws InterruptedException, StreamingQueryException {
         System.setProperty("hadoop.home.dir", "c:/winutils");
         Logger.getLogger("org.apache").setLevel(Level.WARN);
         Logger.getLogger("org.apache.spark.storage").setLevel(Level.ERROR);
@@ -42,7 +45,13 @@ public class SparkStructStream {
                 .option("subscribe", "viewrecords").load();
 
         df.createOrReplaceGlobalTempView("view_figures");
-        Dataset<Row> result = session.sql("select value from view_figures");
+        Dataset<Row> result = session.sql("select cast(value) as course_name, sum(5) from view_figures group by course_name");
+        StreamingQuery query = result.writeStream()
+                .format("console")
+                .outputMode(OutputMode.Complete())
+                .start();
+
+        query.awaitTermination();
 
     }
 }
