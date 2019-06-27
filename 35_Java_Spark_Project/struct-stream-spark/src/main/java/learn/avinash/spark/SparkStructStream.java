@@ -44,11 +44,15 @@ public class SparkStructStream {
                 .option("kafka.bootstrap.servers", "localhost:9092")
                 .option("subscribe", "viewrecords").load();
 
+        session.conf().set("spark.sql.shuffle.partitions","10");
+
         df.createOrReplaceGlobalTempView("view_figures");
-        Dataset<Row> result = session.sql("select cast(value) as course_name, sum(5) from view_figures group by course_name");
+        Dataset<Row> result = session.sql("select window, cast(value) as course_name, sum(5) as second_watched from view_figures group by window( timestamp, '1 minutes') , course_name");
         StreamingQuery query = result.writeStream()
                 .format("console")
                 .outputMode(OutputMode.Complete())
+                .option("truncate", false)
+                .option("numRows", 50)
                 .start();
 
         query.awaitTermination();
