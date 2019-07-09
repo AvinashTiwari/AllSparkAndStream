@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa721e04-ea04-4836-acf7-6ed06fbe5892" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/flink/client/processingTimeAverageProfit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/flink/client/windowEventAverageProfit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/flink/server/processingTimeServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/flink/server/windowEventServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/avgprocessingtime" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../9_Java_Project_Flink/iteration-operator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../9_Java_Project_Flink/iteration-operator/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="aa721e04-ea04-4836-acf7-6ed06fbe5892" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,8 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/flink/client/windowEventAverageProfit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="55" column="44" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
+            <state relative-caret-position="621">
+              <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1228#1509#0" expanded="true" />
@@ -239,7 +230,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -316,8 +306,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/learn/avinash/flink/client/windowEventAverageProfit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="55" column="44" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
+        <state relative-caret-position="621">
+          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1228#1509#0" expanded="true" />
