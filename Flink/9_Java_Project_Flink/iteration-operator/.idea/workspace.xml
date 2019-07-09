@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71c834e1-2d7b-400a-a73f-c8d28b3b2988" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../7_Java_Project_Flink/aggegration-operation/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../7_Java_Project_Flink/aggegration-operation/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../7_Java_Project_Flink/aggegration-operation/src/main/java/learn/avinash/flink/Aggregation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../7_Java_Project_Flink/aggegration-operation/src/main/resources/avg1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../8_Java_Project_Flink/split-stream/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../8_Java_Project_Flink/split-stream/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../8_Java_Project_Flink/split-stream/src/main/java/learn/avinash/flink/SplitDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../8_Java_Project_Flink/split-stream/src/main/resources/oddeven" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/flink/IterateDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../6_Java_Project_Flink/reduce-operation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../6_Java_Project_Flink/reduce-operation/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="71c834e1-2d7b-400a-a73f-c8d28b3b2988" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -168,7 +155,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
