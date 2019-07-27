@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dda19034-0f40-4128-b1ba-acb38e87b0de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/flink/AlarmedCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/flink/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/flink/BankDataServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/avinash/flink/LostCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/alarmed_cust.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bank_data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lost_cards.txt" afterDir="false" />
-    </list>
+    <list default="true" id="dda19034-0f40-4128-b1ba-acb38e87b0de" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -172,7 +162,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
